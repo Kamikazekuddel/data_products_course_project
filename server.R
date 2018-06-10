@@ -1,5 +1,6 @@
 library(quantmod)
 library(lubridate)
+library(tidyverse)
 
 getSymbols(c('AAPL','SPY'),auto.assign = TRUE)
 getSymbols('DGS3MO',src='FRED',auto.assign = TRUE)

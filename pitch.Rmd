@@ -23,6 +23,8 @@ to grasp for most layman. This app helps to build more understanding
 by offering an illustration of a historic investment in Apple stock,
 SPY (an S&P 500 ETF) and/or cash (short term treasury bills).
 
+The app can be found [here](https://konrads-shiny-examples.shinyapps.io/developing_data_products_course_project/).
+
 ## Maximum Drawdown offers an accessible risk measure
 
 In order offer the user an accessible risk measure maximum drawdown is used.
@@ -53,7 +55,8 @@ head(SPY)
 
 ## Adjusted closing prices can be used to simulate protfolios
 
-Example of a hypothetical $100 investment in SPY:
+Example of a hypothetical $100 investment in SPY (simple version of
+shiny's server calculations)
 
 ```{r,message=FALSE,results='hide'}
 library(tidyverse)
